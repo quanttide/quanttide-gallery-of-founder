@@ -13,4 +13,4 @@
 ### 新增
 
 - 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
-- 新增案例 [work/naming.md](work/naming.md)：对齐文件系统命名（按 quanttide-feishu 的「需求 / 意图 / 规格 / 实现」管道体裁），并新增工作域入口 [work/index.md](work/index.md)
+- 新增案例 [work/rename.md](work/rename.md)：对齐文件系统命名（按 quanttide-feishu 的「需求 / 意图 / 规格 / 实现」管道体裁），并新增工作域入口 [work/index.md](work/index.md)

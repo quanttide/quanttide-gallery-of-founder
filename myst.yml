@@ -11,7 +11,7 @@ project:
     - title: 工作
       children:
         - file: work/index.md
-        - file: work/naming.md
+        - file: work/rename.md
 site:
   template: book-theme
   options:
