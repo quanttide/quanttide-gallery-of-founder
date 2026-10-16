@@ -8,6 +8,9 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
+    - title: 命名
+      children:
+        - file: naming/position-vs-title.md
 site:
   template: book-theme
   options:
