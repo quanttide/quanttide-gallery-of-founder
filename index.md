@@ -6,4 +6,4 @@
 
 ## 目录
 
-- [naming/express-concepts.md](./naming/express-concepts.md)：维护文件系统来表达概念。
+- [work/naming.md](./work/naming.md)：维护文件系统来表达概念。
