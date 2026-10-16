@@ -6,4 +6,4 @@
 
 ## 目录
 
-- [naming/position-vs-title.md](./naming/position-vs-title.md)：把概念整理落成文件系统的命名与分类。
+- [filesystem/express-concepts.md](./filesystem/express-concepts.md)：维护文件系统来表达概念。
