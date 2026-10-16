@@ -1,0 +1,14 @@
+version: 1
+project:
+  title: 量潮创始人案例集
+  description: 量潮创始人案例集 - 精选判例与案例
+  keywords: [量潮创始人, 案例集]
+  authors:
+    - name: 量潮科技
+  license: CC-BY-4.0
+  toc:
+    - file: index.md
+site:
+  template: book-theme
+  options:
+    folders: true
