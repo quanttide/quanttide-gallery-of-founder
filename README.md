@@ -16,7 +16,7 @@
 
 本仓库用于收录量潮创始人的精选案例（判例库）。当前收录：
 
-- [work/naming.md](work/naming.md)：维护文件系统来表达概念——以职位（position）与职务（title）的正名为例。
+- [work/naming.md](work/naming.md)：命名对齐——把文件系统的命名与分类对齐概念。
 
 ## 许可
 

@@ -10,6 +10,7 @@ project:
     - file: index.md
     - title: 工作
       children:
+        - file: work/index.md
         - file: work/naming.md
 site:
   template: book-theme

@@ -6,4 +6,4 @@
 
 ## 目录
 
-- [work/naming.md](./work/naming.md)：维护文件系统来表达概念。
+- [work/index.md](./work/index.md)：创始人的工作流程（命名对齐）。
