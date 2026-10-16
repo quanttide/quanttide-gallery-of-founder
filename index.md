@@ -6,4 +6,4 @@
 
 ## 目录
 
-- [work/index.md](./work/index.md)：创始人的工作流程（命名对齐）。
+- [work/index.md](./work/index.md)：创始人的工作流程（对齐文件系统命名）。
