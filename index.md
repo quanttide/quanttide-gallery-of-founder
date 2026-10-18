@@ -6,4 +6,4 @@
 
 ## 目录
 
-- [work/index.md](./work/index.md)：创始人的工作流程（对齐文件系统命名）。
+- [media/food.md](./media/food.md)：媒体与图文——美食推荐图文的发布过程。

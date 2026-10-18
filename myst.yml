@@ -8,10 +8,9 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
-    - title: 工作
+    - title: 媒体
       children:
-        - file: work/index.md
-        - file: work/rename.md
+        - file: media/food.md
 site:
   template: book-theme
   options:
