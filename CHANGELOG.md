@@ -17,6 +17,7 @@
 - `media/rednote/food.md`：补入滁州吾悦广场地址、人均与套餐价格、排队与停车信息
 - `media/rednote/food.md`：画面无人出镜，按正常吃饭的口吻写，不标注合作角色
 - `media/rednote/food.md`：补充店内多为 2–4 人、三四个人五六个菜的体验建议
+- `media/rednote/food.md`：补全六道菜口感与茶饮温度，移除待补清单
 - `media/douyin/food.md`：补全选题与素材过程（视频同步与转码）
 
 ### 新增
