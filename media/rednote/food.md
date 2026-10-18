@@ -20,5 +20,6 @@
 
 ## 素材
 
+从iCloud导出到项目数据目录的`materials/images/`文件夹，并转换成JPG格式。
 
 ## 正文
