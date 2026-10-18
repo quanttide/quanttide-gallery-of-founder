@@ -20,6 +20,7 @@
 - `media/food.md`：补全六道菜口感与茶饮温度，移除待补清单
 - `media/food.md`：标题与说明改为图文，同一篇图文发在小红书和抖音
 - `media/food.md`：补充平台标签上限与抖音只写后 4 个标签的策略
+- `media/food.md`：补充 icloudpd 与 WorkBuddy 的工具说明，加工下的文案流程单独成节
 - `media/douyin/food.md`：删除；平台拆分取消，案例合并到 `media/food.md`
 - `work/rename.md`、`work/index.md`：迁出至 `quanttide-gallery-of-github-platform` 的 `second-brain/rename-files.md`，工作域在本仓清空
 
