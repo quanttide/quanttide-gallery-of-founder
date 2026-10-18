@@ -22,12 +22,7 @@
 
 ### 同步
 
-照片和视频都在 iCloud 相册。用 icloudpd 同步到本地素材目录，按类型分开放：
-
-- 照片 → `<素材目录>/images`
-- 视频 → `<素材目录>/videos`
-
-照片和视频分两次执行，分别加 `--skip-videos` 和 `--skip-photos`；用 `--size original` 拉原图，避免拿到 iCloud 优化存储的缩略图。账号在中国区时加 `--domain cn`。
+照片都在 iCloud 相册。用 icloudpd 同步到 `<素材目录>/images`，加 `--skip-videos` 跳过视频；用 `--size original` 拉原图，避免拿到 iCloud 优化存储的缩略图。账号在中国区时加 `--domain cn`。
 
 完整参数见手册的「照片素材」一篇。
 
