@@ -19,6 +19,7 @@
 - `media/tuwen/food.md`：补充店内多为 2–4 人、三四个人五六个菜的体验建议
 - `media/tuwen/food.md`：补全六道菜口感与茶饮温度，移除待补清单
 - `media/tuwen/food.md`：标题与说明改为图文，同一篇图文发在小红书和抖音
+- `media/tuwen/food.md`：补充平台图片上限与抖音只发后 4 张的发布策略
 - `media/douyin/food.md`：删除；平台拆分取消，案例合并到 `media/tuwen/food.md`
 
 ### 新增
