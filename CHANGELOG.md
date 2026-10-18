@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- `media/rednote/food.md`：补全素材过程（同步、转码）与正文，店名与地址脱敏
+
 ### 新增
 
 - 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`

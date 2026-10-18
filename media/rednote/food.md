@@ -2,12 +2,12 @@
 
 ## 选题
 
-```markdown
-# 肆季味
+一家泰式小馆的探店笔记。现场只记下三段观察：
 
+```markdown
 ## 环境
 
-暖黄的灯光，精致的装修。（视频草稿）
+暖黄的灯光，精致的装修。
 
 ## 人员
 
@@ -18,8 +18,28 @@
 特色是泰式饭和鸡爪。鸡爪是自己改良的。
 ```
 
-## 素材
+## 素材过程
 
-从iCloud导出到项目数据目录的`materials/images/`文件夹，并转换成JPG格式。
+### 同步
+
+照片和视频都在 iCloud 相册。用 icloudpd 同步到本地素材目录，按类型分开放：
+
+- 照片 → `<素材目录>/images`
+- 视频 → `<素材目录>/videos`
+
+照片和视频分两次执行，分别加 `--skip-videos` 和 `--skip-photos`；用 `--size original` 拉原图，避免拿到 iCloud 优化存储的缩略图。账号在中国区时加 `--domain cn`。
+
+完整参数见手册的「照片素材」一篇。
+
+### 转码
+
+iPhone 的原格式是 HEIC 和 HEVC，部分平台和剪辑软件不认。素材目录只留 JPG 和 MP4：
+
+- HEIC → JPG：用 pillow-heif 转换，Display P3 等内嵌配置转到 sRGB，保留 EXIF；
+- MOV → MP4：用 ffmpeg 转 H.264，`-pix_fmt yuv420p`，音频转 AAC；
+- Live Photo 的配对 MOV 转成 MP4 后放进视频目录；
+- 转换成功后删除 HEIC 和 MOV。
+
+先统一格式，后续使用时就不用再考虑平台兼容。
 
 ## 正文
