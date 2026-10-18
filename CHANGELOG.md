@@ -14,6 +14,7 @@
 
 - `media/rednote/food.md`：补全素材过程（同步、转码）与正文，店名与地址脱敏
 - `media/rednote/food.md`：按探店方案修正选题定位，补入选图排序、封面、标题、文案、标签与待补清单
+- `media/rednote/food.md`：补入滁州吾悦广场地址、人均与套餐价格、排队与停车信息
 - `media/douyin/food.md`：补全选题与素材过程（视频同步与转码）
 
 ### 新增
