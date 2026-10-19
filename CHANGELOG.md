@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- `work/export-icloud-photo.md`：按《work 语法》规格改写——散文管命令与取舍，块管步骤、判据、偏差与边界；收尾校验与常见偏差合并进块
+
 ### 新增
 
 - `work/export-icloud-photo.md`：从 iCloud 相册导出照片与视频的工作流（认证前置、目录约定、照片/视频两条同步分支、HEIC→JPG 与 MOV→MP4 转码、Live Photo 归位、收尾校验与常见偏差），自手册的素材两篇合并迁入，来源侧不留副本；工作域在本仓重开
