@@ -6,7 +6,14 @@
 
 ## 前置
 
-**认证**：已完成手册 `auth/icloud.md` 中的账号认证（`icloudpd` 安装与首次登录）。中国区账号所有请求必须带 `--domain cn`。
+**认证**：`icloudpd` 已安装并完成过一次交互式登录。中国区账号所有请求必须带 `--domain cn`。
+
+```bash
+uv tool install icloudpd
+icloudpd --domain cn --username <Apple ID> --auth-only
+```
+
+会话保存在 `~/.pyicloud/`，之后命令自动续期；2FA 过期后重新执行认证命令。双重认证码一次性有效，不写入脚本或文档。
 
 **目录**：素材目录固定为两个，各放一种格式，路径固定便于正文引用。
 
@@ -142,4 +149,4 @@ Live Photo 会连同配对的 MOV 一起下载，这个 MOV 可能落在 `images
 
 ## 本 work 不负责
 
-选题、选图、文案与标签、发布——这些属于媒体的加工与发布环节，见手册 `media/index.md`。
+选题、选图、文案与标签、发布——这些属于媒体的加工与发布环节，不在导出工作流内。
