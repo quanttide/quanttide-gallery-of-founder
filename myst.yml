@@ -14,7 +14,6 @@ project:
     - title: 工作
       children:
         - file: work/export-icloud-photo.md
-        - file: work/background-implementation-delegation.md
 site:
   template: book-theme
   options:

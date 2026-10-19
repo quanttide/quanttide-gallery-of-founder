@@ -16,7 +16,6 @@
 
 ### 新增
 
-- `work/background-implementation-delegation.md`：后台实现任务的派单——场景、派单原话、对象/任务/交付/合格线四项要素、七步操作、派单模板与派单前检查
 - `work/export-icloud-photo.md`：从 iCloud 相册导出照片与视频的工作流（认证前置、目录约定、照片/视频两条同步分支、HEIC→JPG 与 MOV→MP4 转码、Live Photo 归位、收尾校验与常见偏差），自手册的素材两篇合并迁入，来源侧不留副本；工作域在本仓重开
 - 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
 - 新增 `media/` 目录：美食图文（`media/food.md`）
@@ -34,3 +33,7 @@
 - `media/food.md`：补充 icloudpd 与 WorkBuddy 的工具说明，加工下的文案流程单独成节
 - `media/douyin/food.md`：删除；平台拆分取消，案例合并到 `media/food.md`
 - `work/rename.md`、`work/index.md`：迁出至 `quanttide-gallery-of-github-platform` 的 `second-brain/rename-files.md`，工作域在本仓清空
+
+### 移除
+
+- `work/background-implementation-delegation.md`：迁出至手册仓的 `work/`，来源侧不留副本
