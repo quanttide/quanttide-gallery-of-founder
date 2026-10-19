@@ -8,3 +8,4 @@
 
 - [media/food.md](./media/food.md)：媒体与图文——美食推荐图文的发布过程。
 - [work/export-icloud-photo.md](./work/export-icloud-photo.md)：媒体与素材——从 iCloud 相册导出照片与视频（工作流）。
+- [work/background-api-implementation.md](./work/background-api-implementation.md)：AI 协作——把两个 API 的实现派给后台 agent（判例）。
