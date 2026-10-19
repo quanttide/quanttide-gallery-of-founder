@@ -10,6 +10,12 @@
 
 ## [Unreleased]
 
+### 新增
+
+- `work/export-icloud-photo.md`：从 iCloud 相册导出照片与视频的工作流（认证前置、目录约定、照片/视频两条同步分支、HEIC→JPG 与 MOV→MP4 转码、Live Photo 归位、收尾校验与常见偏差），自手册 `media/material/` 迁入，手册侧不留副本；工作域在本仓重开
+- 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
+- 新增 `media/` 目录：美食图文（`media/food.md`）
+
 ### 变更
 
 - `media/food.md`：补全素材过程（同步、转码）与正文，店名与地址脱敏
@@ -23,8 +29,3 @@
 - `media/food.md`：补充 icloudpd 与 WorkBuddy 的工具说明，加工下的文案流程单独成节
 - `media/douyin/food.md`：删除；平台拆分取消，案例合并到 `media/food.md`
 - `work/rename.md`、`work/index.md`：迁出至 `quanttide-gallery-of-github-platform` 的 `second-brain/rename-files.md`，工作域在本仓清空
-
-### 新增
-
-- 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
-- 新增 `media/` 目录：美食图文（`media/food.md`）
