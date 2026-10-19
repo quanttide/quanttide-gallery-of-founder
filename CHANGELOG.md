@@ -16,7 +16,7 @@
 
 ### 新增
 
-- `work/background-api-implementation.md`：后台实现任务的派单——从一条发给 Hermes、转给 Pi 的短指令整理出对象、任务、交付、合格线四项，并列接口契约缺失、覆盖率无阈值、回传与验收未记录四处缺口，给出五条可复用的派单模板
+- `work/background-implementation-delegation.md`：后台实现任务的派单——从一条发给 Hermes、转给 Pi 的短指令整理出对象、任务、交付、合格线四项，并列接口契约缺失、覆盖率无阈值、回传与验收未记录四处缺口，给出五条可复用的派单模板
 - `work/export-icloud-photo.md`：从 iCloud 相册导出照片与视频的工作流（认证前置、目录约定、照片/视频两条同步分支、HEIC→JPG 与 MOV→MP4 转码、Live Photo 归位、收尾校验与常见偏差），自手册的素材两篇合并迁入，来源侧不留副本；工作域在本仓重开
 - 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
 - 新增 `media/` 目录：美食图文（`media/food.md`）
