@@ -8,6 +8,12 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
+    - title: 智能体
+      children:
+        - file: work/agent/index.md
+        - file: work/agent/desktop-workflow.md
+        - file: work/agent/mobile-workflow.md
+        - file: work/agent/hermes-workflow.md
     - title: 媒体
       children:
         - file: media/food.md
