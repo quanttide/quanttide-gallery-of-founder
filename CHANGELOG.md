@@ -16,7 +16,6 @@
 
 ### 新增
 
-- `work/founder-to-domain.md`：从创始人仓库到领域仓库——适用于手册、日志、档案、洞察、规范、文集、画廊等全部资产仓库的迁移做法（筛候选、定性质、定落点、改体例、写目标、删源、断链、指针、复核），标注为未成熟案例
 - `work/export-icloud-photo.md`：从 iCloud 相册导出照片与视频的工作流（认证前置、目录约定、照片/视频两条同步分支、HEIC→JPG 与 MOV→MP4 转码、Live Photo 归位、收尾校验与常见偏差），自手册的素材两篇合并迁入，来源侧不留副本；工作域在本仓重开
 - 初始化案例集仓库：`README.md`（定位与同域分工）、`index.md`（入口，待补充）、`myst.yml`
 - 新增 `media/` 目录：美食图文（`media/food.md`）
@@ -37,4 +36,5 @@
 
 ### 移除
 
+- `work/founder-to-domain.md`：迁出至 GitHub 平台案例集 `second-brain/default-to-domain.md`，来源侧不留副本
 - `work/background-implementation-delegation.md`：迁出至手册仓的 `work/`，来源侧不留副本

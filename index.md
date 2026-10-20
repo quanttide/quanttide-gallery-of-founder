@@ -8,5 +8,4 @@
 
 - [media/food.md](./media/food.md)：媒体与图文——美食推荐图文的发布过程。
 - [work/export-icloud-photo.md](./work/export-icloud-photo.md)：媒体与素材——从 iCloud 相册导出照片与视频（工作流）。
-- [work/founder-to-domain.md](./work/founder-to-domain.md)：工作与资产——从创始人仓库迁入领域仓库（工作流，草稿）。
 
