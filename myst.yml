@@ -14,6 +14,7 @@ project:
     - title: 工作
       children:
         - file: work/export-icloud-photo.md
+        - file: work/handbook-to-domain.md
 site:
   template: book-theme
   options:
