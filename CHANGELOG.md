@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `work/agent/` 四篇移至顶层 `agent/`：智能体协作独立成域，不再归属 work；`myst.yml` 目录同步
 - `work/export-icloud-photo.md`：按《work 语法》规格改写——散文管命令与取舍，块管步骤、判据、偏差与边界；收尾校验与常见偏差合并进块
 
 ### 新增
