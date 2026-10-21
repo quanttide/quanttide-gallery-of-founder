@@ -17,7 +17,7 @@
 
 ### 新增
 
-- `code/`、`devops/`：踩坑清单按领域拆分，代码三篇（文件编辑、Rust 与 cargo、检索与数据）、DevOps 五篇（git、shell、Python、GUI、外部工具），自 `data/profile/pi/pitfalls.md` 迁入；协作纪律与 pi 运行时归 `agent/`；两个索引存来源、分类标准与归仓清单
+- `code/`、`devops/`：踩坑清单以代码树为界拆分——树内（编辑、语言与库、构建与测试、检索）四篇 24 条，树外（仓库、安装、进程、环境、外部服务）五篇 38 条；协作纪律与 pi 运行时归 `agent/` 16 条；合计仍为 78 条
 - `work/agent/index.md`：智能体协作总览——适用范围、分工、操作、要点与已知限制，自手册迁入，来源侧不留副本
 - `work/agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 为补充，自手册迁入
 - `work/agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环，自手册迁入

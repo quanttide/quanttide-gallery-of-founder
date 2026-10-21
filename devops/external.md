@@ -13,4 +13,3 @@
 - 服务「同步接口正常、异步接口全部挂起」（FastAPI/uvicorn 实证）→ 典型是事件循环被首个失败请求阻塞：先重启服务看是否自愈（最小动作），再进容器逐层查；别一上来改代码。
 - `py-spy` 抓挂起的 Python 进程 → 目标进程在容器里就在容器里装（`docker exec <容器> pip install py-spy`），装在宿主机抓不到。
 - MyST 的 tab 块：`{tab-set}` 与 `tab-item` 围栏必须成对闭合（层级不同），批量生成极易漏；写完跑围栏配对检查。README 这类直接在 GitHub 渲染的页面不放 MyST 标签。
-- rdflib 的本地名（QName）不能含空格 → 含空格的条目名要么改成下划线并在档案侧统一，要么改用 `rdfs:label` 承载。

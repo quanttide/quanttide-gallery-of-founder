@@ -27,6 +27,7 @@ project:
         - file: code/index.md
         - file: code/editing.md
         - file: code/rust.md
+        - file: code/flutter.md
         - file: code/search.md
     - title: DevOps
       children:
@@ -34,7 +35,7 @@ project:
         - file: devops/git.md
         - file: devops/shell.md
         - file: devops/python.md
-        - file: devops/gui.md
+        - file: devops/environment.md
         - file: devops/external.md
 site:
   template: book-theme
