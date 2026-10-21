@@ -20,6 +20,16 @@ project:
     - title: 工作
       children:
         - file: work/export-icloud-photo.md
+    - title: 代码
+      children:
+        - file: code/index.md
+        - file: code/git.md
+        - file: code/editing.md
+        - file: code/build.md
+        - file: code/gui.md
+        - file: code/external.md
+        - file: code/discipline.md
+        - file: code/pi.md
 site:
   template: book-theme
   options:

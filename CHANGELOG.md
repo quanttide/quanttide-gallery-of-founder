@@ -17,6 +17,7 @@
 
 ### 新增
 
+- `code/`：踩坑清单七篇（git、文件编辑与 shell、构建与依赖、本机 GUI 与 Flutter、外部工具与检索、协作纪律、pi 运行时），自 `data/profile/pi/pitfalls.md` 分类迁入；`code/index.md` 存来源、目录与归仓清单
 - `work/agent/index.md`：智能体协作总览——适用范围、分工、操作、要点与已知限制，自手册迁入，来源侧不留副本
 - `work/agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 为补充，自手册迁入
 - `work/agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环，自手册迁入

@@ -22,6 +22,7 @@
 - [work/agent/mobile-workflow.md](work/agent/mobile-workflow.md)：移动端工作流——手机派单与查收、电脑执行、官网 App 评审。
 - [work/agent/hermes-workflow.md](work/agent/hermes-workflow.md)：后台实现任务派单——Hermes 转发、Pi 执行。
 - [work/export-icloud-photo.md](work/export-icloud-photo.md)：媒体与素材——从 iCloud 相册导出照片与视频（工作流）。
+- [code/](code/)：开发与运行环境的踩坑清单，按 git、编辑、构建、GUI、外部工具、纪律与 pi 运行时分篇。
 
 ## 许可
 
