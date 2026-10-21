@@ -17,7 +17,7 @@
 
 ### 新增
 
-- `code/`、`devops/`：踩坑清单按「产物对不对」与「流程能否自动化、形式化」拆分——代码三篇 16 条，DevOps 六篇 46 条，智能体 16 条，合计 78 条；构建与制品从代码侧移入 DevOps
+- `code/`、`devops/`：踩坑清单按「产物对不对」与「八阶段流程自动化」拆分，自 `data/profile/pi/pitfalls.md` 迁入——代码三篇 16 条；DevOps 按八阶段归档 46 条（编码 15、构建 14、测试 3、部署 4、运维 3、跨阶段 7）；协作纪律与 pi 运行时归 `agent/` 16 条；合计 78 条
 - `work/agent/index.md`：智能体协作总览——适用范围、分工、操作、要点与已知限制，自手册迁入，来源侧不留副本
 - `work/agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 为补充，自手册迁入
 - `work/agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环，自手册迁入

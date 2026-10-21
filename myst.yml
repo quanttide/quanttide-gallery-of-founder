@@ -31,12 +31,12 @@ project:
     - title: DevOps
       children:
         - file: devops/index.md
-        - file: devops/git.md
+        - file: devops/coding.md
         - file: devops/build.md
-        - file: devops/shell.md
-        - file: devops/python.md
-        - file: devops/environment.md
-        - file: devops/external.md
+        - file: devops/test.md
+        - file: devops/deploy.md
+        - file: devops/ops.md
+        - file: devops/tooling.md
 site:
   template: book-theme
   options:

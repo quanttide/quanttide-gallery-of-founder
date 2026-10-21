@@ -1,4 +1,4 @@
-# git 与子模块
+# 编码与版本控制
 
 - 推送/克隆偶发 `GnuTLS, handshake failed: The TLS connection was non-properly terminated`（exit 128）→ 瞬时错误，原样重试即成功；一次会话里可能连抖三到四次，可以写成重试循环。不是认证、不是 remote 配置问题，别去查证书。
 - `git mv` 报「fatal: 不在版本控制之下」→ 源或目标未 tracked，或要跨子模块移动。未跟踪文件用 `mv`；跨子模块＝源仓删、目标仓建，不能用 `git mv`；目标未 `git add` 前 `git mv` 同样报错。

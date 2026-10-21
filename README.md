@@ -23,7 +23,7 @@
 - [work/agent/hermes-workflow.md](work/agent/hermes-workflow.md)：后台实现任务派单——Hermes 转发、Pi 执行。
 - [work/export-icloud-photo.md](work/export-icloud-photo.md)：媒体与素材——从 iCloud 相册导出照片与视频（工作流）。
 - [code/](code/)：产物本身的踩坑清单（文件编辑、语言与测试写法、检索与数据）。
-- [devops/](devops/)：研发流程自动化与形式化的踩坑清单（git 与子模块、构建与制品、shell、Python 包管理、本机图形环境、外部工具）。
+- [devops/](devops/)：按八阶段归档的研发流程自动化清单（编码与版本控制、构建与依赖、测试环境、部署、运维、跨阶段工具链）。
 - [agent/discipline.md](agent/discipline.md)、[agent/pi.md](agent/pi.md)：协作纪律与 pi 运行时。
 
 ## 许可
