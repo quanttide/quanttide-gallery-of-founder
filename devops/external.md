@@ -1,6 +1,4 @@
-# 外部工具与检索
-
-## 外部工具与服务
+# 外部工具与服务
 
 - GitHub 没有「创建组织」的 API → REST/GraphQL/gh CLI 都做不到，只能在网页建。
 - `gh search repos` 没有 stargazers 字段 → 查 stars / pushed_at / archived 用 `gh api repos/<owner>/<repo>`。
@@ -16,10 +14,3 @@
 - `py-spy` 抓挂起的 Python 进程 → 目标进程在容器里就在容器里装（`docker exec <容器> pip install py-spy`），装在宿主机抓不到。
 - MyST 的 tab 块：`{tab-set}` 与 `tab-item` 围栏必须成对闭合（层级不同），批量生成极易漏；写完跑围栏配对检查。README 这类直接在 GitHub 渲染的页面不放 MyST 标签。
 - rdflib 的本地名（QName）不能含空格 → 含空格的条目名要么改成下划线并在档案侧统一，要么改用 `rdfs:label` 承载。
-
-## 检索与数据
-
-- FTS5 trigram 的短查询：一到两个汉字命中不了索引（trigram 要三字符以上），中文两字词是常态，做中文搜索必须另想办法。
-- 反复对同一索引目录跑增量索引 → 副本累加、BM25 分数静默漂移（同一文件占满 top10）。跑实验前清索引目录，或「一次建索引、多个查询」；结果可疑先查副本污染再下结论。
-- 打分类/检索实验里用 HashMap 迭代顺序累加分数 → 两次运行排序不一致。按查询词原顺序遍历，并用两次运行逐字节比对做确定性验证。
-- 跨来源统计前先归一名词：各 agent 读文件的工具名不同（pi/dsh 叫 `read`，zed/hermes 叫 `read_file`），只认一个名字会把命中率算低一半。

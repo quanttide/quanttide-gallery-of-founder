@@ -14,6 +14,8 @@ project:
         - file: agent/desktop-workflow.md
         - file: agent/mobile-workflow.md
         - file: agent/hermes-workflow.md
+        - file: agent/discipline.md
+        - file: agent/pi.md
     - title: 媒体
       children:
         - file: media/food.md
@@ -23,13 +25,17 @@ project:
     - title: 代码
       children:
         - file: code/index.md
-        - file: code/git.md
         - file: code/editing.md
-        - file: code/build.md
-        - file: code/gui.md
-        - file: code/external.md
-        - file: code/discipline.md
-        - file: code/pi.md
+        - file: code/rust.md
+        - file: code/search.md
+    - title: DevOps
+      children:
+        - file: devops/index.md
+        - file: devops/git.md
+        - file: devops/shell.md
+        - file: devops/python.md
+        - file: devops/gui.md
+        - file: devops/external.md
 site:
   template: book-theme
   options:
