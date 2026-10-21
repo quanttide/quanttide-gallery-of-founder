@@ -12,12 +12,13 @@
 
 ### 变更
 
+- `devops/`：六篇按八阶段归档的清单迁出至 `quanttide-devops` 的案例集（`quanttide-gallery-of-devops` 的 `docs/gallery`），按阶段目录与主题文件重排，来源侧不留副本
 - `work/agent/` 四篇移至顶层 `agent/`：智能体协作独立成域，不再归属 work；`myst.yml` 目录同步
 - `work/export-icloud-photo.md`：按《work 语法》规格改写——散文管命令与取舍，块管步骤、判据、偏差与边界；收尾校验与常见偏差合并进块
 
 ### 新增
 
-- `code/`、`devops/`：踩坑清单按「产物对不对」与「八阶段流程自动化」拆分，自 `data/profile/pi/pitfalls.md` 迁入——代码三篇 16 条；DevOps 按八阶段归档 46 条（编码 15、构建 14、测试 3、部署 4、运维 3、跨阶段 7）；协作纪律与 pi 运行时归 `agent/` 16 条；合计 78 条
+- `code/`、`agent/`：踩坑清单留在产物与智能体两侧，自 `data/profile/pi/pitfalls.md` 迁入——代码三篇 16 条，协作纪律与 pi 运行时 16 条
 - `work/agent/index.md`：智能体协作总览——适用范围、分工、操作、要点与已知限制，自手册迁入，来源侧不留副本
 - `work/agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 为补充，自手册迁入
 - `work/agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环，自手册迁入
