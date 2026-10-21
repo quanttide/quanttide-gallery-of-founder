@@ -26,13 +26,13 @@ project:
       children:
         - file: code/index.md
         - file: code/editing.md
-        - file: code/rust.md
-        - file: code/flutter.md
+        - file: code/languages.md
         - file: code/search.md
     - title: DevOps
       children:
         - file: devops/index.md
         - file: devops/git.md
+        - file: devops/build.md
         - file: devops/shell.md
         - file: devops/python.md
         - file: devops/environment.md
