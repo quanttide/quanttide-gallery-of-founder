@@ -18,7 +18,7 @@ project:
         - file: agent/pi.md
     - title: 媒体
       children:
-        - file: media/food.md
+        - file: create/food.md
     - title: 工作
       children:
         - file: work/export-icloud-photo.md

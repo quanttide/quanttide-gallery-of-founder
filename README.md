@@ -16,7 +16,7 @@
 
 本仓库用于收录量潮创始人的精选案例（判例库）。当前收录：
 
-- [media/food.md](media/food.md)：媒体与图文——美食推荐图文的发布过程。
+- [create/food.md](create/food.md)：媒体与图文——美食推荐图文的发布过程。
 - [work/agent/index.md](work/agent/index.md)：智能体协作——职责分工、操作要求与已知限制。
 - [work/agent/desktop-workflow.md](work/agent/desktop-workflow.md)：电脑端工作流——入口按职责分工与操作步骤。
 - [work/agent/mobile-workflow.md](work/agent/mobile-workflow.md)：移动端工作流——手机派单与查收、电脑执行、官网 App 评审。

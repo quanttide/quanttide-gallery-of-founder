@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `media/` 目录更名为 `create/`：`media/food.md` → `create/food.md`（纯路径迁移，内容不变）；`index.md`、`README.md`、`myst.yml` 引用同步
 - `devops/`：六篇按八阶段归档的清单迁出至 `quanttide-devops` 的案例集（`quanttide-gallery-of-devops` 的 `docs/gallery`），按阶段目录与主题文件重排，来源侧不留副本
 - `work/agent/` 四篇移至顶层 `agent/`：智能体协作独立成域，不再归属 work；`myst.yml` 目录同步
 - `work/export-icloud-photo.md`：按《work 语法》规格改写——散文管命令与取舍，块管步骤、判据、偏差与边界；收尾校验与常见偏差合并进块
