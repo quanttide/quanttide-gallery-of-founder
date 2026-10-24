@@ -25,7 +25,7 @@
 
 ## 归仓清单
 
-这些在池里也有条目，但内容只对某个仓成立，此处不收正文：`qtcloud-*` CLI 的内部实现与内存爆炸案例（quanttide-work / qtcloud-meta）、`pr4xis` / `lau-category-theory` 的 API 坑（quanttide-meta）、`qtconsult` 的 GoRouter 微任务风暴与 pumpAndSettle 不收敛（qtconsult）、OneBase-AI 的配置与 Dockerfile 覆盖链（一次性选型，已成结论）、`quanttide-feishu-lab` 的 runner 副作用缺口（quanttide-feishu）。它们该进各仓的 `docs/` 或 `AGENTS.md`，而不该长期待在记忆池里。
+这些在池里也有记录，但内容只对某个仓成立，此处不收正文：`qtcloud-*` CLI 的内部实现与内存爆炸案例（quanttide-work / qtcloud-meta）、`pr4xis` / `lau-category-theory` 的 API 坑（quanttide-meta）、`qtconsult` 的 GoRouter 微任务风暴与 pumpAndSettle 不收敛（qtconsult）、OneBase-AI 的配置与 Dockerfile 覆盖链（一次性选型，已成结论）、`quanttide-feishu-lab` 的 runner 副作用缺口（quanttide-feishu）。它们该进各仓的 `docs/` 或 `AGENTS.md`，而不该长期待在记忆池里。
 
 ## 与记忆池的关系
 
