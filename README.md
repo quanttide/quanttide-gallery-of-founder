@@ -24,6 +24,7 @@
 - [work/export-icloud-photo.md](work/export-icloud-photo.md)：媒体与素材——从 iCloud 相册导出照片与视频（工作流）。
 - [code/](code/)：产物本身的踩坑清单（文件编辑、语言与测试写法、检索与数据）。
 - [agent/discipline.md](agent/discipline.md)、[agent/pi.md](agent/pi.md)：协作纪律与 pi 运行时。
+- [language/context.md](language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
 
 DevOps 阶段的清单已迁至 `quanttide-devops` 的案例集（[quanttide-gallery-of-devops](https://github.com/quanttide/quanttide-gallery-of-devops)），按阶段与主题落位，来源侧不留副本。
 

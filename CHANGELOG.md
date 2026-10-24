@@ -20,6 +20,7 @@
 ### 新增
 
 - `code/`、`agent/`：踩坑清单留在产物与智能体两侧，自 `data/profile/pi/pitfalls.md` 迁入——代码三篇 16 条，协作纪律与 pi 运行时 16 条
+- `language/context.md`：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线，自《汉语语用工程章程》第二章降级移入
 - `work/agent/index.md`：智能体协作总览——适用范围、分工、操作、要点与已知限制，自手册迁入，来源侧不留副本
 - `work/agent/desktop-workflow.md`：电脑端工作流——入口按职责分工，Zed 深度编辑、Pi TUI/Web 项目交互、Hermes desktop 跨多仓整理，OpenCode 与 dsh 为补充，自手册迁入
 - `work/agent/mobile-workflow.md`：移动端工作流——手机经 Hermes 连电脑派单，电脑执行并推送 GitHub，手机用 Working Copy 查收、交官网 App 评审解读的闭环，自手册迁入
