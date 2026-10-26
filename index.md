@@ -19,4 +19,5 @@
 - [code/languages.md](./code/languages.md)：语言与测试写法——API 以源码为准，测试不碰真实 I/O。
 - [code/search.md](./code/search.md)：检索与数据——中文索引、增量污染与命名。
 - [language/context.md](./language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
+- [org/rank.md](./org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 

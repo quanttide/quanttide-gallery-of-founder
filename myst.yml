@@ -31,6 +31,9 @@ project:
     - title: 语言
       children:
         - file: language/context.md
+    - title: 组织
+      children:
+        - file: org/rank.md
 site:
   template: book-theme
   options:
