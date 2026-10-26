@@ -20,4 +20,5 @@
 - [code/search.md](./code/search.md)：检索与数据——中文索引、增量污染与命名。
 - [language/context.md](./language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
 - [org/rank.md](./org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
+- [org/structure.md](./org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
 

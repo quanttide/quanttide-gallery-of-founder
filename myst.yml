@@ -34,6 +34,7 @@ project:
     - title: 组织
       children:
         - file: org/rank.md
+        - file: org/structure.md
 site:
   template: book-theme
   options:
