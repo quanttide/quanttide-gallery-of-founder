@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `meta/index.md`：评审引公理改为「写名字」，与公理的 `name` 字段一致
 - `meta/axioms.md`：标记写进三级标题——`template-scope（确认）`，其余八条`（怀疑）`；每条前面的「状态」行省掉
 - `meta/axioms.md`：`template-scope` 的前提改为「有固定结构才有模板」——日志有日期模板是因为输入格式固定，不是因为它在 `docs/` 下
 - `media/` 目录更名为 `create/`：`media/food.md` → `create/food.md`（纯路径迁移，内容不变）；`index.md`、`README.md`、`myst.yml` 引用同步
