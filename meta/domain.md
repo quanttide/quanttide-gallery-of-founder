@@ -1,33 +1,33 @@
 # 标准领域
 
-领域是内容搬出本仓的去处：一份内容讲的是哪个领域，就归哪个仓，与落进本仓哪一格无关。六个都还没验过，先按怀疑算。
+领域是内容搬出本仓的去处：一份内容讲的是哪个领域，就归哪个仓，与落进本仓哪一格无关。六个都已验过。
 
-## quanttide-write（怀疑）
+## quanttide-write（确认）
 
 - 称呼：write 领域
 - 线索：小说、章节、文风、叙事、人物、改稿
 
-## quanttide-health（怀疑）
+## quanttide-health（确认）
 
 - 称呼：health 领域
 - 线索：健康、睡眠、心理、情绪、认知扭曲、体检
 
-## quanttide-finance（怀疑）
+## quanttide-finance（确认）
 
 - 称呼：finance 领域
 - 线索：财务、预算、成本、报销、毛利、现金流
 
-## quanttide-code（怀疑）
+## quanttide-code（确认）
 
 - 称呼：code 领域
 - 线索：代码、函数、编译、单元测试、重构
 
-## quanttide-learn（怀疑）
+## quanttide-learn（确认）
 
 - 称呼：learn 领域
 - 线索：课程、教学、学员、培训、课堂
 
-## quanttide-legal（怀疑）
+## quanttide-legal（确认）
 
 - 称呼：legal 领域
 - 线索：法律、合同、诉讼、知识产权、合规
