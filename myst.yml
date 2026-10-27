@@ -35,6 +35,7 @@ project:
       children:
         - file: meta/index.md
         - file: meta/axioms.md
+        - file: meta/property.md
     - title: 组织
       children:
         - file: org/rank.md
