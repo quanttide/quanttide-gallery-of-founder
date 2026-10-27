@@ -12,6 +12,7 @@
 
 ### 新增
 
+- `asset/relation.md`：资产关系——context、18 类长期记忆与 archive 的三种结构、三步搬迁与三条关系
 - `asset/maintain.md`：资产维护——归位契约 `[maintain]` 九条的镜像
 
 ### 变更

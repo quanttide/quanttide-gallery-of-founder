@@ -31,6 +31,7 @@ project:
     - title: 资产
       children:
         - file: asset/maintain.md
+        - file: asset/relation.md
     - title: 语言
       children:
         - file: language/context.md
