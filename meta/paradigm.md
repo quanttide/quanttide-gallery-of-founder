@@ -7,7 +7,7 @@
 ## quanttide-founder（确认）
 
 - 称呼：归位
-- 来源：cells
+- 来源：categories
 - 合成：部分
 - 描述：十八格按时间乘类型、约束力乘消费对象张开；降格是有条件的有向边。
 - 对象（18）：见 [category.md](./category.md)

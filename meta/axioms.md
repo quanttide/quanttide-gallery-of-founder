@@ -32,7 +32,7 @@
 
 代价：放错格不是难看，是下一轮没人找得到它。
 
-### domain-before-cell（怀疑）
+### domain-before-category（怀疑）
 
 先定域，再定格，再过准入，最后给写法。
 

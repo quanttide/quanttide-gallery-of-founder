@@ -16,7 +16,7 @@
 
 约束：机器名在同类里不重复；字段按 [property.md](./property.md) 写；加一类东西只往契约里加单元，不改代码。
 
-出现：格（`[[cell]]`）、领域（`[[domain]]`）、降格（`[[transition]]`）、分辨（`[[question]]`）、公理（`[[axiom]]`）、体裁、词。
+出现：格（`[[category]]`）、领域（`[[domain]]`）、降格（`[[transition]]`）、分辨（`[[question]]`）、公理（`[[axiom]]`）、体裁、词。
 
 ## 结论（怀疑）
 
