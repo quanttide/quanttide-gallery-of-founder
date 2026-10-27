@@ -36,9 +36,15 @@ project:
         - file: meta/index.md
         - file: meta/axioms.md
         - file: meta/property.md
-        - file: meta/model.md
+        - file: meta/category.md
+        - file: meta/model/index.md
+        - file: meta/model/contract.md
+        - file: meta/model/rule.md
+        - file: meta/model/criterion.md
         - file: meta/relation.md
         - file: meta/domain.md
+        - file: meta/home.md
+        - file: meta/paradigm.md
     - title: 组织
       children:
         - file: org/rank.md

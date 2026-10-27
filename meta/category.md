@@ -125,7 +125,7 @@
 ## 怎么用
 
 - 判完一条，用 name 查这一页，确认它收的与卡上说的一致。
-- 加一格之前，先看它落在哪条轴上（见 [model.md](./model.md)）；轴上报不出位置，就不是新范畴。
+- 加一格之前，先看它落在哪条轴上（见 [model/index.md](./model/index.md)）；轴上报不出位置，就不是新范畴。
 - 这一页只管收什么。写法与分档看 `asset contract`，迁移看 [relation.md](./relation.md)。
 
 范畴的错法与正法，见 [axioms.md](./axioms.md) 的判例。

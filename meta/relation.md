@@ -54,4 +54,4 @@
 
 新加一种连接，先看它属于哪一样；六样都不像，说明它其实是包含或引用换了说法。
 
-属性、模型与公理见 [property.md](./property.md)、[model.md](./model.md)、[axioms.md](./axioms.md)。关系的错法与正法，见后者的判例。
+属性、模型与公理见 [property.md](./property.md)、[model/index.md](./model/index.md)、[axioms.md](./axioms.md)。关系的错法与正法，见后者的判例。

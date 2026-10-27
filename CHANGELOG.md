@@ -12,6 +12,10 @@
 
 ### 变更
 
+- `meta/model.md` 改为 `meta/model/index.md`；契约、规则、标准三页从规格降到 `meta/model/` 当标准模型
+
+### 变更
+
 - `meta/property.md`：十九条各带确认或怀疑，确认九条（id、name、label、title、path、status、description、category、type）；新增 `title`
 - `meta/property.md`：六组统一叫「…属性」，`status` 单独归状态属性，`path` 归位置属性
 - `meta/property.md`：「归属」拆成分类与位置状态；分类分 `category`（用户自定义）与 `type`（系统定义），`family` 作为格的类型字段归在 `type` 下
