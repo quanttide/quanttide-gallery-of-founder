@@ -25,6 +25,7 @@
 - [code/](code/)：产物本身的踩坑清单（文件编辑、语言与测试写法、检索与数据）。
 - [agent/discipline.md](agent/discipline.md)、[agent/pi.md](agent/pi.md)：协作纪律与 pi 运行时。
 - [language/context.md](language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
+- [asset/catalog.md](asset/catalog.md)：资产清单——二十种资产的名字、路径、角色与布局。
 - [asset/maintain.md](asset/maintain.md)：资产维护——三步流程与通过条件。
 - [asset/relation.md](asset/relation.md)：资产关系——context、18 类长期记忆与 archive 的搬迁。
 - [meta/](meta/)：归位——先定去处再定范畴，落位卡点名哪些前提。
