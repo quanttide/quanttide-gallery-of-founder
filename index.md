@@ -25,7 +25,7 @@
 - [meta/relation.md](./meta/relation.md)：标准关系——反复出现的六种连接。
 - [meta/domain.md](./meta/domain.md)：标准领域——六个领域仓与各自的线索。
 - [language/context.md](./language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
-- [asset/maintain.md](./asset/maintain.md)：资产维护——归位契约 `[maintain]` 九条的镜像。
+- [asset/maintain.md](./asset/maintain.md)：资产维护——三步流程与通过条件。
 - [asset/relation.md](./asset/relation.md)：资产关系——context、18 类长期记忆与 archive 的搬迁。
 - [org/rank.md](./org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 - [org/structure.md](./org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
