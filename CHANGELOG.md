@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `meta/property.md`：`statement`、`summary`、`boundary` 合并为 `description`
 - `meta/property.md`：去掉 `key`，标识只用 `name`，中文称呼归 `label`
 - `meta/index.md`：评审引公理改为「写名字」，与公理的 `name` 字段一致
 - `meta/axioms.md`：标记写进三级标题——`template-scope（确认）`，其余八条`（怀疑）`；每条前面的「状态」行省掉
