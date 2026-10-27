@@ -25,7 +25,6 @@
 - [code/](code/)：产物本身的踩坑清单（文件编辑、语言与测试写法、检索与数据）。
 - [agent/discipline.md](agent/discipline.md)、[agent/pi.md](agent/pi.md)：协作纪律与 pi 运行时。
 - [language/context.md](language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
-- [asset/maintain.md](asset/maintain.md)：资产维护——九条通用规则与维护断掉的信号。
 - [meta/](meta/)：归位——先定去处再定范畴，落位卡点名哪些前提。
 - [meta/axioms.md](meta/axioms.md)：公理清单九条；[meta/property.md](meta/property.md)：标准属性。
 - [meta/model/index.md](meta/model/index.md)、[meta/relation.md](meta/relation.md)：标准模型与标准关系。

@@ -28,9 +28,6 @@ project:
         - file: code/editing.md
         - file: code/languages.md
         - file: code/search.md
-    - title: 资产
-      children:
-        - file: asset/maintain.md
     - title: 语言
       children:
         - file: language/context.md
