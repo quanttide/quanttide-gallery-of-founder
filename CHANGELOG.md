@@ -27,7 +27,7 @@
 
 ### 新增
 
-- `meta/model.md`：标准模型——陈述型与程序型两族，各记两条轴的取值与九格名字，均先标怀疑
+- `meta/model.md`：标准模型——代码里的类（Contract、Cell、Domain、Grade、Transition、Question、Model、Axiom、Verdict、Card、Candidate），逐类列字段，均先标怀疑
 - `meta/relation.md`：标准关系——降格三条、分辨十四对、分组两条线与定域，均先标怀疑
 - `meta/property.md`：标准属性——id 用 uuid，name 做机器可读标识；归属、内容与关系字段各一条定义，按用途分组
 

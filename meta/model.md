@@ -1,27 +1,63 @@
 # 标准模型
 
-归位本体分两族，每族九格。模型只说明有哪些格、由哪两条轴张开，不替你选格。两族都还没验过，先按怀疑算。
+模型就是代码里的类，一个类装一组字段。字段含义见 [property.md](./property.md)，这页只说有哪些类、每个类装什么。类都还没对过，先按怀疑算。
 
-## 陈述型（怀疑）
+## Contract（怀疑）
 
-组织知道什么：过去是已履行的契约，现在是正在履行的，未来是将要履行的。
+一次读进内存的归位契约，七个字段各装一组：
 
-- 时间：过去、现在、未来。
-- 类型：事件、语义、自我。
+- `verdict`：阈值与默认话术。
+- `domain`：领域。
+- `cell`：十八格。
+- `transition`：降格规则。
+- `question`：分辨句。
+- `model`：本体。
+- `axiom`：公理。
 
-九格：report、library、history、journal、profile、brochure、roadmap、insight、intention。
+## Cell（怀疑）
 
-## 程序型（怀疑）
+一格：`name`、`label`、`path`、`family`、`cues`、`description`、`skeleton`、`grade`。
 
-组织怎么做事：宪法定权责，法律写程序，法理讲方法论。
+## Domain（怀疑）
 
-- 约束力：宪法、法律、法理。
-- 消费对象：人读、AI 解析、直接运行。
+一个领域仓：`name`、`label`、`cues`。
 
-九格：bylaw、specification、toolkit、handbook、gallery、platform、tutorial、essay、laboratory。
+## Grade（怀疑）
 
-## 两族的差别
+一档可信度：`label`、`cues`、`fallback`。
 
-陈述型问「知道什么」，收能被推翻的话；程序型问「怎么做事」，收照着能做的话。同一条内容，讲发生了什么归陈述型，讲以后怎么做归程序型。
+## Transition（怀疑）
+
+一条降格规则：`from`、`to`、`require_any`、`lack_any`、`reason`。
+
+## Question（怀疑）
+
+一对分辨句：`pair`、`ask`。
+
+## Model（怀疑）
+
+本体：`description`、`family`。一族是 `ModelFamily`，装 `name`、`question`、`description`、`axis`；一条轴是 `Axis`，装 `name`、`values`。
+
+## Axiom（怀疑）
+
+一条公理：`name`、`description`、`why`、`status`。
+
+## Verdict（怀疑）
+
+契约里的阈值：`min_margin`、`min_hits`、`min_domain_hits`、`max_paragraphs`、`stay`、`archive_cues`、`question_fallback`。
+
+## Card（怀疑）
+
+一张落位卡：`verdict`、`domain`、`domain_form`、`domain_reason`、`cell`、`grade`、`rule`、`question`、`candidates`、`reason`、`axioms`。
+
+## Candidate（怀疑）
+
+一个候选格：`name`、`label`、`score`。
+
+输出去向是另一个 `Verdict`，取值 place、move、reject、undecided——与阈值那个同名，不同模块。
+
+## 怎么读这页
+
+类名就是字段的边界：字段只在类里出现，换个类就换一套字段。要加字段，先看它属于哪个类；同一个意思不许在两个类里各起一个名字。
 
 属性、关系与公理见 [property.md](./property.md)、[relation.md](./relation.md)、[axioms.md](./axioms.md)。模型的错法与正法，见后者的判例。
