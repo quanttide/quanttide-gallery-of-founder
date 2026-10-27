@@ -10,6 +10,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- `asset/maintain.md`：资产维护——归位契约 `[maintain]` 九条的镜像
+
 ### 变更
 
 - `meta/model.md` 改为 `meta/model/index.md`；契约、规则、标准三页从规格降到 `meta/model/` 当标准模型
