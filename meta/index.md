@@ -10,7 +10,7 @@
 
 - [axioms.md](./axioms.md)：公理清单——九条前提与各自的代价，验过的标确认，没验的标怀疑。判例按现象、错法、正法写在管的公理下面。
 - [property.md](./property.md)：标准属性——标识、分类、位置、状态、内容、关系六组字段各是什么，每条带确认或怀疑。
-- [model.md](./model.md)：标准模型——代码里的类，Contract、Cell、Card 等各装哪些字段。
+- [model.md](./model.md)：标准模型——反复出现的五样形状：契约、单元、结论、命令、技能。
 - [relation.md](./relation.md)：标准关系——Transition、Question、Edges 三种边，以及不成边的分组与定域。
 
 ## 卡上点哪几条

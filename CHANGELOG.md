@@ -27,7 +27,7 @@
 
 ### 新增
 
-- `meta/model.md`：标准模型——代码里的类（Contract、Cell、Domain、Grade、Transition、Question、Model、Axiom、Verdict、Card、Candidate），逐类列字段，均先标怀疑
+- `meta/model.md`：标准模型——反复出现的五样形状（契约、单元、结论、命令、技能），每样写明出现在哪些领域与不变量，均先标怀疑
 - `meta/relation.md`：标准关系——按代码里的边写：Transition（from／to）、Question（pair）、Edges（outgoing／incoming／questions），并说明分组与定域不成边
 - `meta/property.md`：标准属性——id 用 uuid，name 做机器可读标识；归属、内容与关系字段各一条定义，按用途分组
 

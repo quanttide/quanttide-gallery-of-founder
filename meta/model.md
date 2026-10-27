@@ -1,63 +1,33 @@
 # 标准模型
 
-模型就是代码里的类，一个类装一组字段。字段含义见 [property.md](./property.md)，这页只说有哪些类、每个类装什么。类都还没对过，先按怀疑算。
+模型不是某一个类，是反复出现的形状：同一个东西在每个领域各出现一次，长相一样。五样都还没对过，先按怀疑算。
 
-## Contract（怀疑）
+## 契约（怀疑）
 
-一次读进内存的归位契约，七个字段各装一组：
+每个有检查的领域一份契约文件，配一个同名的类来读。查找顺序一致：先看 `--rules`，再看环境变量，再从当前目录往上找到源码树，最后退到用户级目录。缺了就停手，不内置兜底。
 
-- `verdict`：阈值与默认话术。
-- `domain`：领域。
-- `cell`：十八格。
-- `transition`：降格规则。
-- `question`：分辨句。
-- `model`：本体。
-- `axiom`：公理。
+出现在 code、language、docs、write、think、meta、agent 七处；asset 不另起一份，直接读 meta 的。
 
-## Cell（怀疑）
+## 单元（怀疑）
 
-一格：`name`、`label`、`path`、`family`、`cues`、`description`、`skeleton`、`grade`。
+契约由一组单元组成，每个单元有机器名、人读称呼与一段描述，阈值和线索也挂在单元上。叫法随领域变——格、规则、词、体裁——形状不变。
 
-## Domain（怀疑）
+加一类东西只改契约，不改代码。
 
-一个领域仓：`name`、`label`、`cues`。
+## 结论（怀疑）
 
-## Grade（怀疑）
+每次检查给一个结论，带理由和退出码：0 是过，非 0 是没过或待定。结论的档位与阈值都在契约里，代码只负责算。
 
-一档可信度：`label`、`cues`、`fallback`。
+## 命令（怀疑）
 
-## Transition（怀疑）
+每个领域一条二级命令，读自己的契约，输出文本或 `--json`。命令之间不互相改规则，组合只发生在报告层：`audit` 把文字与文档两份报告并成一份，规则还是各归各的。
 
-一条降格规则：`from`、`to`、`require_any`、`lack_any`、`reason`。
+## 技能（怀疑）
 
-## Question（怀疑）
+每个领域一份 SKILL.md，写清什么时候用、按什么步骤做。技能引命令，不重写规则；规则改了只改契约，不动技能。
 
-一对分辨句：`pair`、`ask`。
+## 怎么用这套形状
 
-## Model（怀疑）
-
-本体：`description`、`family`。一族是 `ModelFamily`，装 `name`、`question`、`description`、`axis`；一条轴是 `Axis`，装 `name`、`values`。
-
-## Axiom（怀疑）
-
-一条公理：`name`、`description`、`why`、`status`。
-
-## Verdict（怀疑）
-
-契约里的阈值：`min_margin`、`min_hits`、`min_domain_hits`、`max_paragraphs`、`stay`、`archive_cues`、`question_fallback`。
-
-## Card（怀疑）
-
-一张落位卡：`verdict`、`domain`、`domain_form`、`domain_reason`、`cell`、`grade`、`rule`、`question`、`candidates`、`reason`、`axioms`。
-
-## Candidate（怀疑）
-
-一个候选格：`name`、`label`、`score`。
-
-输出去向是另一个 `Verdict`，取值 place、move、reject、undecided——与阈值那个同名，不同模块。
-
-## 怎么读这页
-
-类名就是字段的边界：字段只在类里出现，换个类就换一套字段。要加字段，先看它属于哪个类；同一个意思不许在两个类里各起一个名字。
+新开一个领域，照这五样各写一份：契约、单元、结论、命令、技能。不发明第六种结构，也不把别的领域的字段借过来用。
 
 属性、关系与公理见 [property.md](./property.md)、[relation.md](./relation.md)、[axioms.md](./axioms.md)。模型的错法与正法，见后者的判例。
