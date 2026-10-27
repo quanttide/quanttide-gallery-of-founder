@@ -17,6 +17,7 @@
 - `meta/property.md`：「归属」拆成分类与位置状态；分类分 `category`（用户自定义）与 `type`（系统定义），`family` 作为格的类型字段归在 `type` 下
 - `meta/property.md`：`statement`、`summary`、`boundary` 合并为 `description`
 - `meta/property.md`：去掉 `key`，标识只用 `name`，中文称呼归 `label`
+- `meta/index.md`：重写为四篇标准的入口——定位、目录、四样怎么合起来、为什么分四篇
 - `meta/index.md`：评审引公理改为「写名字」，与公理的 `name` 字段一致
 - `meta/axioms.md`：标记写进三级标题——`template-scope（确认）`，其余八条`（怀疑）`；每条前面的「状态」行省掉
 - `meta/axioms.md`：`template-scope` 的前提改为「有固定结构才有模板」——日志有日期模板是因为输入格式固定，不是因为它在 `docs/` 下
