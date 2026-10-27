@@ -9,7 +9,7 @@
 ## 目录
 
 - [axioms.md](./axioms.md)：公理清单——九条前提与各自的代价，验过的标确认，没验的标怀疑。判例按现象、错法、正法写在管的公理下面。
-- [property.md](./property.md)：习惯——标识、文档、变更、工具与语言，一条一条是自己定的。
+- [property.md](./property.md)：标准属性——id、name、label、key、path、family、status 与内容、关系字段各是什么。
 
 ## 卡上点哪几条
 
