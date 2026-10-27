@@ -12,6 +12,7 @@
 
 ### 变更
 
+- `meta/property.md`：「归属」拆成分类与位置状态；分类分 `category`（用户自定义）与 `type`（系统定义），`family` 作为格的类型字段归在 `type` 下
 - `meta/property.md`：`statement`、`summary`、`boundary` 合并为 `description`
 - `meta/property.md`：去掉 `key`，标识只用 `name`，中文称呼归 `label`
 - `meta/index.md`：评审引公理改为「写名字」，与公理的 `name` 字段一致
