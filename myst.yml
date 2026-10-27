@@ -38,6 +38,7 @@ project:
         - file: meta/property.md
         - file: meta/model.md
         - file: meta/relation.md
+        - file: meta/domain.md
     - title: 组织
       children:
         - file: org/rank.md

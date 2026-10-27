@@ -20,6 +20,10 @@
 - [code/search.md](./code/search.md)：检索与数据——中文索引、增量污染与命名。
 - [meta/index.md](./meta/index.md)：归位——先定域再定格，卡上点名哪些前提。
 - [meta/axioms.md](./meta/axioms.md)：公理清单——九条前提与各自的代价。
+- [meta/property.md](./meta/property.md)：标准属性——六组字段各是什么。
+- [meta/model.md](./meta/model.md)：标准模型——反复出现的五样形状。
+- [meta/relation.md](./meta/relation.md)：标准关系——反复出现的六种连接。
+- [meta/domain.md](./meta/domain.md)：标准领域——六个领域仓与各自的线索。
 - [language/context.md](./language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
 - [org/rank.md](./org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 - [org/structure.md](./org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
