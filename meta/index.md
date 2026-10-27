@@ -9,7 +9,9 @@
 ## 目录
 
 - [axioms.md](./axioms.md)：公理清单——九条前提与各自的代价，验过的标确认，没验的标怀疑。判例按现象、错法、正法写在管的公理下面。
-- [property.md](./property.md)：标准属性——id、name、label、path、family、status 与内容、关系字段各是什么。
+- [property.md](./property.md)：标准属性——标识、分类、位置、状态、内容、关系六组字段各是什么，每条带确认或怀疑。
+- [model.md](./model.md)：标准模型——两族九宫格的两条轴与十八格名字。
+- [relation.md](./relation.md)：标准关系——降格、分辨、分组与定域。
 
 ## 卡上点哪几条
 

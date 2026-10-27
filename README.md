@@ -25,7 +25,7 @@
 - [code/](code/)：产物本身的踩坑清单（文件编辑、语言与测试写法、检索与数据）。
 - [agent/discipline.md](agent/discipline.md)、[agent/pi.md](agent/pi.md)：协作纪律与 pi 运行时。
 - [language/context.md](language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
-- [meta/](meta/)：归位——先定域再定格，落位卡点名哪些前提；[axioms.md](meta/axioms.md) 收公理清单九条，[property.md](meta/property.md) 收标准属性。
+- [meta/](meta/)：归位——先定域再定格，落位卡点名哪些前提；[axioms.md](meta/axioms.md) 收公理清单九条，[property.md](meta/property.md) 收标准属性，[model.md](meta/model.md) 与 [relation.md](meta/relation.md) 收标准模型与标准关系。
 - [org/rank.md](org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 - [org/structure.md](org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
 
