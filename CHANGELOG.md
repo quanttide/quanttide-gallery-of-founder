@@ -12,7 +12,7 @@
 
 ### 变更
 
-- `meta/property.md`：十八条各带确认或怀疑，确认五条（id、name、description、category、type）
+- `meta/property.md`：十八条各带确认或怀疑，确认六条（id、name、label、description、category、type）
 - `meta/property.md`：六组统一叫「…属性」，`status` 单独归状态属性，`path` 归位置属性
 - `meta/property.md`：「归属」拆成分类与位置状态；分类分 `category`（用户自定义）与 `type`（系统定义），`family` 作为格的类型字段归在 `type` 下
 - `meta/property.md`：`statement`、`summary`、`boundary` 合并为 `description`
