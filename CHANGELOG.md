@@ -12,7 +12,7 @@
 
 ### 变更
 
-- `meta/axioms.md`：九条各加一个标记，`template-scope` 标确认，其余八条标怀疑
+- `meta/axioms.md`：标记写进三级标题——`template-scope（确认）`，其余八条`（怀疑）`；每条前面的「状态」行省掉
 - `meta/axioms.md`：`template-scope` 的前提改为「有固定结构才有模板」——日志有日期模板是因为输入格式固定，不是因为它在 `docs/` 下
 - `media/` 目录更名为 `create/`：`media/food.md` → `create/food.md`（纯路径迁移，内容不变）；`index.md`、`README.md`、`myst.yml` 引用同步
 - `devops/`：六篇按八阶段归档的清单迁出至 `quanttide-devops` 的案例集（`quanttide-gallery-of-devops` 的 `docs/gallery`），按阶段目录与主题文件重排，来源侧不留副本
