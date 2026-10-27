@@ -28,7 +28,7 @@
 ### 新增
 
 - `meta/model.md`：标准模型——代码里的类（Contract、Cell、Domain、Grade、Transition、Question、Model、Axiom、Verdict、Card、Candidate），逐类列字段，均先标怀疑
-- `meta/relation.md`：标准关系——降格三条、分辨十四对、分组两条线与定域，均先标怀疑
+- `meta/relation.md`：标准关系——按代码里的边写：Transition（from／to）、Question（pair）、Edges（outgoing／incoming／questions），并说明分组与定域不成边
 - `meta/property.md`：标准属性——id 用 uuid，name 做机器可读标识；归属、内容与关系字段各一条定义，按用途分组
 
 - `meta/index.md`、`meta/axioms.md`：归位——先定域再定格四条顺序、落位卡点哪几条，以及评审里怎么引 id；公理清单单独成篇：按 `docs`、`meta`、`asset` 三组命令分节，以公理为单位，每条给前提与代价，判例附在对应公理下。前提与规则分开写，正本在 `qtfounder` 的归位契约里
