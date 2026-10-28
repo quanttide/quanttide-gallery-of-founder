@@ -44,4 +44,5 @@
 - [human/crowdsourced-tasks.md](./human/crowdsourced-tasks.md)：众包任务——真实需求拆成最小任务，连接课堂、招聘与实训。
 - [human/promotion-stages.md](./human/promotion-stages.md)：晋升阶段——用职级与候补层把成长路径拆成可观察阶段。
 - [human/business-capability.md](./human/business-capability.md)：岗位能力——商务岗位标准化后按获客与维护拆分，负责人接棒日常经营。
+- [product/from-qtfounder-to-qtcloud.md](./product/from-qtfounder-to-qtcloud.md)：产品仓与探路仓——qtfounder 给 qtcloud 探路，成果单向分岔，附毕业标准与落位三问。
 

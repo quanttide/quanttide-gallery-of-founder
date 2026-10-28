@@ -12,6 +12,8 @@
 
 ### 新增
 
+- `product/from-qtfounder-to-qtcloud.md`：qtfounder 给 qtcloud 探路——两仓并列、成果单向分岔，附三类不稳定、毕业标准与落位三问；新增 `product/` 目录（产品域）
+
 - `human/training/product-operations.md`：产品运营培养方案——从用户体验观察入手，用 Issue 与 PR 记录成长路径；新增 `human/` 目录（人力资源域）
 - `human/course-hiring-assessment.md`：把课程实践改造成招聘考核——任务与评分标准同源，门槛分设
 - `human/screening-at-scale.md`：招聘筛选按申请量重设计——笔试退出，考核转入真实任务

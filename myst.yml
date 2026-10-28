@@ -71,6 +71,9 @@ project:
         - file: human/crowdsourced-tasks.md
         - file: human/promotion-stages.md
         - file: human/business-capability.md
+    - title: 产品
+      children:
+        - file: product/from-qtfounder-to-qtcloud.md
 site:
   template: book-theme
   options:
