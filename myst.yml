@@ -19,9 +19,6 @@ project:
     - title: 媒体
       children:
         - file: create/food.md
-    - title: 写作
-      children:
-        - file: write/distill.md
     - title: 工作
       children:
         - file: work/export-icloud-photo.md

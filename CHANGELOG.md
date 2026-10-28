@@ -12,7 +12,6 @@
 
 ### 新增
 
-- `write/distill.md`：提炼——CODE 循环的 D 步骤，不删内容而重排包装，以 roadmap 手册的改写为例
 - `asset/catalog.md`：资产清单——二十种资产的名字、路径、角色与布局
 - `asset/relation.md`：资产关系——context、18 类长期记忆与 archive 的三种结构与搬迁关系
 - `asset/maintain.md`：资产维护——三步流程与通过条件
