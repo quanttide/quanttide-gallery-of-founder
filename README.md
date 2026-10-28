@@ -31,9 +31,10 @@
 - [meta/](meta/)：归位——先定去处再定范畴，落位卡点名哪些前提。
 - [meta/axioms.md](meta/axioms.md)：公理清单九条；[meta/property.md](meta/property.md)：标准属性。
 - [meta/model/index.md](meta/model/index.md)、[meta/relation.md](meta/relation.md)：标准模型与标准关系。
-- [meta/domain.md](meta/domain.md)：本体论根；[meta/home.md](meta/home.md)：标准去处。
+- [meta/home.md](meta/home.md)：标准去处；[domain/human-vs-org.md](domain/human-vs-org.md)：域界线——人力资源与组织管理，归到人还是归到组织。
 - [org/rank.md](org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 - [org/structure.md](org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
+- [org/right.md](org/right.md)：职权——代表大会弱领导，项目里随阶段流动。
 
 DevOps 阶段的清单已迁至 `quanttide-devops` 的案例集（[quanttide-gallery-of-devops](https://github.com/quanttide/quanttide-gallery-of-devops)），按阶段与主题落位，来源侧不留副本。
 

@@ -46,13 +46,16 @@ project:
         - file: meta/model/rule.md
         - file: meta/model/criterion.md
         - file: meta/relation.md
-        - file: meta/domain.md
         - file: meta/home.md
         - file: meta/paradigm.md
+    - title: 域
+      children:
+        - file: domain/human-vs-org.md
     - title: 组织
       children:
         - file: org/rank.md
         - file: org/structure.md
+        - file: org/right.md
 site:
   template: book-theme
   options:

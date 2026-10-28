@@ -12,12 +12,15 @@
 
 ### 新增
 
+- `domain/human-vs-org.md`：域界线——人力资源与组织管理，以归到哪分界，手段不参与判断
 - `asset/catalog.md`：资产清单——二十种资产的名字、路径、角色与布局
 - `asset/relation.md`：资产关系——context、18 类长期记忆与 archive 的三种结构与搬迁关系
 - `asset/maintain.md`：资产维护——三步流程与通过条件
+- `org/right.md`：职权——代表大会弱领导，项目里随阶段流动
 
 ### 变更
 
+- 移除 `meta/domain.md`；`index.md`、`meta/index.md`、`README.md`、`myst.yml` 目录与引用同步
 - `asset/maintain.md`：不再镜像契约的九条规则，改为按 context → 长期记忆 → archive 的维护流程重写
 
 ### 变更
