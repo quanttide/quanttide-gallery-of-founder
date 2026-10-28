@@ -13,6 +13,18 @@
 ### 新增
 
 - `human/training/product-operations.md`：产品运营培养方案——从用户体验观察入手，用 Issue 与 PR 记录成长路径；新增 `human/` 目录（人力资源域）
+- `human/course-hiring-assessment.md`：把课程实践改造成招聘考核——任务与评分标准同源，门槛分设
+- `human/screening-at-scale.md`：招聘筛选按申请量重设计——笔试退出，考核转入真实任务
+- `human/crowdsourced-tasks.md`：众包任务连接需求、训练与选拔——真实需求拆成最小任务
+- `human/promotion-stages.md`：晋升路径拆成可观察阶段——职级进度与候补过渡层
+- `human/business-capability.md`：商务能力岗位化——岗位标准化后按获客与维护拆分
+- `org/empowerment.md`：逐步授权——先定底线，随可靠行为让权，决议约束双方
+- `org/points-ledger.md`：积分制发展成组织记录——互助行为用可核对记录支持
+- `org/stage-leadership.md`：领导权随工作阶段流动——代表大会弱领导
+- `org/resource-rules.md`：资源支持与组织规则共同演进——讲清价值与成本，走制度提案
+- `work/continuous-process.md`：跨系统人工衔接转连续流程——先定义连续旅程再分段迁移
+- `agent/intent-formalization.md`：先形式化意图再让 AI 和程序执行——规则与异常先行
+- `agent/verifiable-records.md`：可核对记录支撑 AI 流程和交接——状态变更留记录、高影响步骤加校验
 - `domain/human-vs-org.md`：域界线——人力资源与组织管理，以归到哪分界，手段不参与判断
 - `asset/catalog.md`：资产清单——二十种资产的名字、路径、角色与布局
 - `asset/relation.md`：资产关系——context、18 类长期记忆与 archive 的三种结构与搬迁关系

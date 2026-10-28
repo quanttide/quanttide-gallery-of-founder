@@ -16,12 +16,15 @@ project:
         - file: agent/hermes-workflow.md
         - file: agent/discipline.md
         - file: agent/pi.md
+        - file: agent/intent-formalization.md
+        - file: agent/verifiable-records.md
     - title: 媒体
       children:
         - file: create/food.md
     - title: 工作
       children:
         - file: work/export-icloud-photo.md
+        - file: work/continuous-process.md
     - title: 代码
       children:
         - file: code/index.md
@@ -56,9 +59,18 @@ project:
         - file: org/rank.md
         - file: org/structure.md
         - file: org/right.md
+        - file: org/empowerment.md
+        - file: org/points-ledger.md
+        - file: org/stage-leadership.md
+        - file: org/resource-rules.md
     - title: 人力资源
       children:
         - file: human/training/product-operations.md
+        - file: human/course-hiring-assessment.md
+        - file: human/screening-at-scale.md
+        - file: human/crowdsourced-tasks.md
+        - file: human/promotion-stages.md
+        - file: human/business-capability.md
 site:
   template: book-theme
   options:
