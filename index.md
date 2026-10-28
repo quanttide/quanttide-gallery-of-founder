@@ -25,7 +25,7 @@
 - [meta/relation.md](./meta/relation.md)：标准关系——反复出现的六种连接。
 - [meta/domain.md](./meta/domain.md)：标准领域——六个领域仓与各自的线索。
 - [language/context.md](./language/context.md)：语境错配——财务与计算机术语搬出本领域的词表、替代写法与判断界线。
-- [write/distill.md](./write/distill.md)：提炼——CODE 循环的 D 步骤，先定留下的标准再删。
+- [write/distill.md](./write/distill.md)：提炼——CODE 循环的 D 步骤，不删内容，重新打包。
 - [asset/catalog.md](./asset/catalog.md)：资产清单——二十种资产的名字、路径、角色与布局。
 - [asset/maintain.md](./asset/maintain.md)：资产维护——三步流程与通过条件。
 - [asset/relation.md](./asset/relation.md)：资产关系——context、18 类长期记忆与 archive 的搬迁。
