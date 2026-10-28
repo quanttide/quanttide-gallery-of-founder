@@ -12,6 +12,7 @@
 
 ### 新增
 
+- `human/training/product-operations.md`：产品运营培养方案——从用户体验观察入手，用 Issue 与 PR 记录成长路径；新增 `human/` 目录（人力资源域）
 - `domain/human-vs-org.md`：域界线——人力资源与组织管理，以归到哪分界，手段不参与判断
 - `asset/catalog.md`：资产清单——二十种资产的名字、路径、角色与布局
 - `asset/relation.md`：资产关系——context、18 类长期记忆与 archive 的三种结构与搬迁关系

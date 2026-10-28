@@ -35,6 +35,7 @@
 - [org/rank.md](org/rank.md)：晋升通道——实训基地、联盟、公司三级，培养与选拔并用。
 - [org/structure.md](org/structure.md)：组织结构——联盟下设实训基地和研究院，分级训练。
 - [org/right.md](org/right.md)：职权——代表大会弱领导，项目里随阶段流动。
+- [human/training/product-operations.md](human/training/product-operations.md)：产品运营培养方案——从用户体验观察入手，用 Issue 与 PR 记录成长路径。
 
 DevOps 阶段的清单已迁至 `quanttide-devops` 的案例集（[quanttide-gallery-of-devops](https://github.com/quanttide/quanttide-gallery-of-devops)），按阶段与主题落位，来源侧不留副本。
 

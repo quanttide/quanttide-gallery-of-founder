@@ -56,6 +56,9 @@ project:
         - file: org/rank.md
         - file: org/structure.md
         - file: org/right.md
+    - title: 人力资源
+      children:
+        - file: human/training/product-operations.md
 site:
   template: book-theme
   options:
