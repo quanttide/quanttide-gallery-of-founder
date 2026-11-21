@@ -1,6 +1,6 @@
 # 小红书与抖音双平台发布
 
-用 Playwright 操作 Firefox，把探店图文按档案发布到小红书和抖音。上游是 [iCloud 照片导出](../work/export-icloud-photo.md) 与 [美食推荐图文](../create/food.md) 两条 work 的产出：转码落盘的 9 张图和写好的档案。
+用 Playwright 操作 Firefox，把探店图文按档案发布到小红书和抖音。上游是 [iCloud 照片导出](../work/export-icloud-photo.md) 与 [美食推荐图文](./food.md) 两条 work 的产出：转码落盘的 9 张图和写好的档案。
 
 适用于有固定发布流程、内容已成档案、需要重复执行的平台发布场景；一次性随手发不值得走这条流程。
 
@@ -48,7 +48,7 @@ work: rednote-publish
 版本: 1
 
 输入:
-  档案: { 必填: true }        # data/profile/create/<店名>.md，含标题/文案/标签/图片清单
+  档案: { 必填: true }        # data/profile/media/<店名>.md，含标题/文案/标签/图片清单
   平台: { 默认: [小红书, 抖音] }
 
 前置:
@@ -69,6 +69,6 @@ work: rednote-publish
 
 ## 不做
 
-- 选题、选图、文案与标签（在[美食推荐图文](../create/food.md)）
+- 选题、选图、文案与标签（在[美食推荐图文](./food.md)）
 - 素材同步与转码（在 [导出 iCloud 照片](../work/export-icloud-photo.md)）
 - 数据回流与效果复盘

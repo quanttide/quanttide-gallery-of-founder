@@ -8,6 +8,8 @@
 
 ---
 
+- `create/food.md` 并入已有 `media/`，`create/` 目录移除；`index.md`、`README.md`、`myst.yml` 及 media 内文链接同步
+
 ## [Unreleased]
 
 ### 删除

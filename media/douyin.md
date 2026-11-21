@@ -38,7 +38,7 @@ work: douyin-tuwen-publish
 版本: 1
 
 输入:
-  档案: { 必填: true }        # data/profile/create/<店名>.md
+  档案: { 必填: true }        # data/profile/media/<店名>.md
   验证码: { 必填: true, 来源: 人 }   # 短信验证码或扫码确认
 
 前置:

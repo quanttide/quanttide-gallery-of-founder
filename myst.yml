@@ -20,7 +20,7 @@ project:
         - file: agent/verifiable-records.md
     - title: 媒体
       children:
-        - file: create/food.md
+        - file: media/food.md
         - file: media/rednote.md
         - file: media/douyin.md
     - title: 工作
