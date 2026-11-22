@@ -18,6 +18,7 @@
 
 ### 新增
 
+- `game/asset-checklist.html`：上线前资产清点单页工具（发行最后一关），自 `data/context` game 集迁入；HTML 工具页不入 `index.md` 与 `myst.yml`
 - `media/rednote.md`：小红书与抖音双平台发布——Playwright 复制 Firefox profile 继承登录态，封面叠字、草稿箱恢复与五个踩坑点，附验收标准；`media/` 目录首篇
 - `media/douyin.md`：抖音图文发布——与小红书的七项差异对照表，验证弹窗的人机交接流程，附验收标准
 

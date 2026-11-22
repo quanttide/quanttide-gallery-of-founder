@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>上线前资产清点 · 发行最后一关</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+    background:linear-gradient(160deg,#1c1633 0%,#241d40 55%,#1a1428 100%);
+    color:#e9e2d0;min-height:100vh;padding:36px 16px 60px;line-height:1.75}
+  .wrap{max-width:760px;margin:0 auto}
+  .kicker{color:#f0b95c;font-size:13px;font-weight:700;letter-spacing:4px;margin-bottom:10px}
+  h1{font-size:27px;color:#fff;margin-bottom:8px;font-weight:900}
+  .sub{color:#b9b0d6;font-size:14px;margin-bottom:26px}
+  .card{background:rgba(255,255,255,.055);border:1px solid rgba(240,185,92,.22);
+    border-radius:16px;padding:22px 20px;margin-bottom:20px}
+  .card h2{font-size:18px;color:#f0b95c;margin-bottom:6px;font-weight:800}
+  .why{color:#cfc8e0;font-size:14px}
+  .why b{color:#ffd98a}
+  .progress-wrap{margin:26px 0 6px}
+  .progress-bar{height:10px;background:rgba(255,255,255,.09);border-radius:6px;overflow:hidden}
+  .progress-fill{height:100%;width:0;background:linear-gradient(90deg,#f0b95c,#ff8a5c);transition:width .3s}
+  .progress-text{font-size:13px;color:#b9b0d6;margin-top:6px}
+  .sec{margin-bottom:22px}
+  .sec-head{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+  .sec-num{font-size:13px;color:#8f86c9;font-weight:800;letter-spacing:1px}
+  .sec-head h3{font-size:17px;color:#fff;font-weight:800}
+  .sec-tag{font-size:11px;padding:2px 9px;border-radius:10px;font-weight:700}
+  .tag-ok{background:rgba(120,220,150,.16);color:#7fe0a3}
+  .tag-warn{background:rgba(255,138,92,.18);color:#ffab8a}
+  .sec-note{font-size:13px;color:#a9a1c7;margin-bottom:10px}
+  .item{display:flex;gap:11px;padding:10px 12px;border-radius:11px;background:rgba(255,255,255,.04);
+    margin-bottom:8px;align-items:flex-start}
+  .item input{width:17px;height:17px;margin-top:5px;accent-color:#f0b95c;flex-shrink:0;cursor:pointer}
+  .item .txt{font-size:14px;color:#ddd6c4}
+  .item .txt b{color:#fff}
+  .item .txt .how{display:block;font-size:12.5px;color:#9d95bd;margin-top:3px}
+  .item.done{opacity:.5}
+  .item.done .txt{text-decoration:line-through}
+  .pit{border-left:3px solid #ff8a5c;background:rgba(255,138,92,.08);border-radius:0 11px 11px 0;
+    padding:12px 14px;font-size:13.5px;color:#ffd0b8;margin:12px 0}
+  .pit b{color:#ffab8a}
+  .good{border-left:3px solid #7fe0a3;background:rgba(127,224,163,.08);border-radius:0 11px 11px 0;
+    padding:12px 14px;font-size:13.5px;color:#c2ecd0;margin:12px 0}
+  .good b{color:#7fe0a3}
+  pre{background:rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.09);border-radius:11px;
+    padding:14px 16px;font-size:12.5px;color:#c9c2e0;overflow-x:auto;line-height:1.7;margin:10px 0}
+  .footer{text-align:center;color:#7a7398;font-size:12px;margin-top:34px}
+  .reset{background:none;border:1px solid rgba(255,255,255,.2);color:#9d95bd;border-radius:16px;
+    padding:5px 16px;font-size:12px;cursor:pointer;margin-top:8px}
+  code{background:rgba(240,185,92,.14);color:#ffd98a;padding:1px 6px;border-radius:5px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="kicker">课时 4 · 附加环节</div>
+  <h1>上线前资产清点</h1>
+  <p class="sub">发行前的最后一关：逐项确认游戏里每一样东西的来源和授权 · 全部勾完才能提审</p>
+
+  <div class="card">
+    <h2>为什么要做这一步</h2>
+    <p class="why">上线时平台会要求你签<b>知识产权承诺书</b>——承诺所有内容合法，出事自己担。
+    平时没人查，但作品一旦被推荐、被更多玩家看到，版权方找上门的案例并不少。
+    这一步课堂内 30 分钟起步，剩余项课后补全，<b>全部勾完之前不提审</b>。</p>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-bar"><div class="progress-fill" id="bar"></div></div>
+    <div class="progress-text" id="ptext">已完成 0 / 20</div>
+    <button class="reset" onclick="resetAll()">重置勾选</button>
+  </div>
+
+  <!-- 1 代码 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">01</span><h3>代码与依赖</h3><span class="sec-tag tag-ok">本项目已核对 ✓</span></div>
+    <p class="sec-note">每个引用进来的库，都要能说出它的开源协议。</p>
+    <label class="item"><input type="checkbox" data-k="c1"><span class="txt"><b>代码是自研的，或已获得明确授权</b>
+      <span class="how">复用了别人的代码段？留出处记录（链接 + 日期 + 许可）。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="c2"><span class="txt"><b>每个第三方库的 LICENSE 已确认可商用</b>
+      <span class="how">MIT / Apache / BSD 可商用；<b>GPL 系会让整个衍生作品被迫开源</b>——商用闭源项目禁用。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="c3"><span class="txt"><b>没有复制来路不明的代码片段</b>
+      <span class="how">AI 生成 + 手抄混合的代码，保留 git 历史作为创作证据。</span></span></label>
+    <div class="good"><b>本项目现状：</b>纯自研 vanilla JS，零第三方依赖，git 历史完整。此项全过。</div>
+  </div>
+
+  <!-- 2 美术 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">02</span><h3>美术素材</h3><span class="sec-tag tag-ok">本项目已核对 ✓</span></div>
+    <p class="sec-note">图、插画、图标、场景素材，每张都能回答：哪来的、许可是什么。</p>
+    <label class="item"><input type="checkbox" data-k="a1"><span class="txt"><b>所有图片是自制，或有明确许可</b>
+      <span class="how">自制最干净；素材站下载的，确认许可类型再存档。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="a2"><span class="txt"><b>没有从百度图片 / 谷歌图片直接搜图使用</b>
+      <span class="how">搜到的图默认有主，直接用 = 侵权。要素材就去免费可商用库（unswash、Pixabay 等，CC0）。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="a3"><span class="txt"><b>没有使用他人的 Logo、品牌 IP、知名角色形象</b>
+      <span class="how">吉祥物、角色也要查——别画成某个现成 IP 的样子。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="a4"><span class="txt"><b>emoji 图标确认渲染方式</b>
+      <span class="how">系统 emoji（📱 直接打出来）由用户设备渲染，无版权问题；引入 emoji 图片包则要查许可。</span></span></label>
+    <div class="good"><b>本项目现状：</b>全部美术为 CSS / 内联 SVG 自绘（场景、图标、favicon），无外部图片引用。此项全过。</div>
+  </div>
+
+  <!-- 3 字体 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">03</span><h3>字体</h3><span class="sec-tag tag-ok">本项目已核对 ✓</span></div>
+    <p class="sec-note">字体是独立美术作品，也是被起诉最多的一类。</p>
+    <label class="item"><input type="checkbox" data-k="f1"><span class="txt"><b>没有打包任何字体文件（.woff / .ttf / .otf）</b>
+      <span class="how">搜项目里的 <code>@font-face</code> 和字体文件引用。打包 = 分发字体文件，需要授权。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="f2"><span class="txt"><b>只使用系统字体栈（font-family 声明设备字体）</b>
+      <span class="how">调用用户设备上已装的字体、不分发文件，属于低风险做法。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="f3"><span class="txt"><b>如果必须打包字体：选可商用字库并保留 LICENSE</b>
+      <span class="how">可商用：思源黑体 / Noto 系列 / 阿里普惠体 / OPPO Sans。每款附带它的 LICENSE 文件进仓库。</span></span></label>
+    <div class="pit"><b>高危字体名单：</b>微软雅黑（嵌入产品需方正授权）、方正系全部、汉仪系全部、华康系部分。这些东西出现在 <code>@font-face</code> 里就是隐患。</div>
+    <div class="good"><b>本项目现状：</b>仅系统字体栈（苹方 / 雅黑 / 宋体 / DIN），无任何字体文件打包。保持「永远不打包字体文件」即可。</div>
+  </div>
+
+  <!-- 4 音乐 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">04</span><h3>音乐与音效</h3><span class="sec-tag tag-warn">⚠ 唯一待办</span></div>
+    <p class="sec-note">本项目唯一没核对完的资产：<code>bgm.mp3</code> 与 <code>bgm_alt.mp3</code>。</p>
+    <label class="item"><input type="checkbox" data-k="m1"><span class="txt"><b>确认 BGM 来源（问当年做的人 / 翻记录）</b>
+      <span class="how">文件元数据已被 FFmpeg 处理剥掉，只能靠回忆：自制？素材库？还是随手下的？</span></span></label>
+    <label class="item"><input type="checkbox" data-k="m2"><span class="txt"><b>自制 / 委托 → 确认权属条款</b>
+      <span class="how">外包约稿的，合同里要有「著作权归甲方」；口头约稿补一份书面权属确认。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="m3"><span class="txt"><b>素材库来源 → 存档下载页 + 许可证截图</b>
+      <span class="how">CC0 可商用免署名；CC-BY 可用但必须在商店简介或游戏内制作名单署名。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="m4"><span class="txt"><b>来源查不清 → 替换为 CC0 音乐</b>
+      <span class="how">Pixabay Music / Freesound，找轻松爵士或 Lo-fi 曲风。保持文件名不变，代码零改动，十分钟完成。</span></span></label>
+    <div class="pit"><b>本项目待办：</b>两个 BGM 来自量潮原站，但来源需确认。确认不了就执行第 4 项替换。这是全清单唯一的红灯，处理完即可提审。</div>
+  </div>
+
+  <!-- 5 图标标识 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">05</span><h3>图标、商店物料</h3><span class="sec-tag tag-ok">本项目已核对 ✓</span></div>
+    <p class="sec-note">提审要交的每张图，都算「美术素材」，规则同第 02 项。</p>
+    <label class="item"><input type="checkbox" data-k="i1"><span class="txt"><b>favicon / App 图标是自制的</b>
+      <span class="how">图标库（iconfont 等）下载的要确认授权范围——部分图标库仅限个人。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="i2"><span class="txt"><b>商店截图只用自己游戏的画面</b>
+      <span class="how">宣传图里若加了网图、明星、IP 元素，同样按第 02 项规则查。</span></span></label>
+    <label class="item"><input type="checkbox" data-k="i3"><span class="txt"><b>游戏名没有和现有作品重名 / 攀附</b>
+      <span class="how">提审前在 TapTap 搜索框把游戏名搜一遍，重名会被打回。</span></span></label>
+    <div class="good"><b>本项目现状：</b>favicon 为内联自绘 SVG；游戏名《量潮模拟经营游戏》为自定名。商店截图待物料制作时生成。</div>
+  </div>
+
+  <!-- 存档 -->
+  <div class="sec">
+    <div class="sec-head"><span class="sec-num">06</span><h3>证据存档</h3></div>
+    <p class="sec-note">清点的产出不是「我知道了」，而是留档。将来任何人质询，翻出文件即可。</p>
+    <pre>assets-clearance/
+├─ music/
+│  └─ bgm-license.png      # 下载页 + 许可证截图
+├─ art/
+│  └─ （每个外部素材一份来源记录）
+├─ fonts/
+│  └─ （打包字体时放对应 LICENSE）
+└─ NOTES.md                # 每项一行：素材 → 来源 → 许可 → 存档文件</pre>
+    <div class="good"><b>检验标准：</b>清单里每一个素材，都能回答三个问题——<b>哪来的、许可是什么、证据在哪</b>。答不上来的那一项，就是待办。</div>
+  </div>
+
+  <div class="card">
+    <h2>怎么交</h2>
+    <p class="why">课堂：教师带各组对照本页逐项过一遍，当场能确认的当场勾掉；确认不了的记成待办。
+    课后：待办项补齐（多数是「存档截图」这种十分钟的小事）。
+    <b>验收：进度条 17/17 + assets-clearance 文件夹齐全 → 才允许提交审核。</b></p>
+  </div>
+
+  <div class="footer">量潮实训基地 · 氛围编程课 · 发行 checklist<br>勾选进度自动保存在本机浏览器</div>
+</div>
+
+<script>
+const KEY='asset-checklist-v1';
+const boxes=[...document.querySelectorAll('input[type=checkbox]')];
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+function save(s){localStorage.setItem(KEY,JSON.stringify(s))}
+function render(){
+  const s=load();let done=0;
+  boxes.forEach(b=>{const k=b.dataset.k;const on=!!s[k];b.checked=on;b.closest('.item').classList.toggle('done',on);if(on)done++});
+  document.getElementById('bar').style.width=(done/boxes.length*100)+'%';
+  document.getElementById('ptext').textContent='已完成 '+done+' / '+boxes.length+(done===boxes.length?'  ✅ 可提交审核':'');
+}
+boxes.forEach(b=>b.addEventListener('change',()=>{const s=load();s[b.dataset.k]=b.checked;save(s);render()}));
+function resetAll(){localStorage.removeItem(KEY);render()}
+render();
+</script>
+</body>
+</html>
