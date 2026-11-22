@@ -18,6 +18,7 @@
 
 ### 新增
 
+- `math/verify.md`：自 `data/context` 按资产契约迁入，正文未改
 - `media/rednote.md`：小红书与抖音双平台发布——Playwright 复制 Firefox profile 继承登录态，封面叠字、草稿箱恢复与五个踩坑点，附验收标准；`media/` 目录首篇
 - `media/douyin.md`：抖音图文发布——与小红书的七项差异对照表，验证弹窗的人机交接流程，附验收标准
 
